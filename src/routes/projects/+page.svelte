@@ -10,7 +10,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
                 <Card
                     title="site"
-                    link = "https://github.com/AkulBatra/site"
+                    link = "https://github.com/akulb07/site"
                     description="personal website"
                     class="p-6 md:p-8"
                 />
