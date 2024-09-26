@@ -33,8 +33,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://codeforces.com/profile/akulb07" target="_blank" class="text-blue-500 hover:underline">
-                        Codeforces
+                    <a href="https://github.com/akulb07" target="_blank" class="text-blue-500 hover:underline">
+                        GitHub
                     </a>
                 </li>
 
