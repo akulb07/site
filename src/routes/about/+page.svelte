@@ -23,7 +23,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.hackerrank.com/profile/batraakul07" target="_blank" class="text-blue-500 hover:underline">
+                    <a href="https://www.hackerrank.com/profile/batraakul" target="_blank" class="text-blue-500 hover:underline">
                         HackerRank
                     </a>
                 </li>
