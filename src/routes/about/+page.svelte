@@ -18,6 +18,11 @@
             <h2 class="text-xl font-bold">Links</h2>
             <ul class="list-disc list-inside">
                 <li>
+                    <a href="https://github.com/akulb07" target="_blank" class="text-blue-500 hover:underline">
+                        GitHub
+                    </a>
+                </li>
+                <li>
                     <a href="https://lichess.org/@/akulb07" target="_blank" class="text-blue-500 hover:underline">
                         Lichess
                     </a>
@@ -32,12 +37,6 @@
                         LeetCode
                     </a>
                 </li>
-                <li>
-                    <a href="https://github.com/akulb07" target="_blank" class="text-blue-500 hover:underline">
-                        GitHub
-                    </a>
-                </li>
-
             </ul>
         </div>
     </div>
