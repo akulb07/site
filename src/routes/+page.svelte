@@ -35,7 +35,7 @@
         background-position: -100% 0%;
       }
     }
-  
+
     .cursor {
       display: inline-block;
       vertical-align: bottom;
