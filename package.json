@@ -25,5 +25,8 @@
 		"fs": "^0.0.1-security",
 		"mdsvex": "^0.11.0",
 		"shiki": "^1.2.4"
+	},
+	"optionalDependencies": {
+		"@rollup/rollup-linux-x64-gnu": "4.9.5"
 	}
 }
