@@ -5,7 +5,7 @@
     export let posts = [];
     export let h2 = false;
 
-    let searchQuery = ''; // To hold the search query
+    let searchQuery = '';
 </script>
 
 <style>
@@ -42,7 +42,7 @@
 
     .search-input:focus {
         outline: none;
-        box-shadow: none; /* Remove any default focus shadow */
+        box-shadow: none;
     }
 </style>
 
