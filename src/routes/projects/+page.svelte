@@ -14,7 +14,12 @@
                     description="personal website"
                     class="p-6 md:p-8"
                 />
-                <!-- Add more Card components if needed -->
+                <Card
+                        title="CompetitiveProgramming"
+                        link = "https://github.com/akulb07/CompetitiveProgramming"
+                        description="Solutions to problems on platforms like CSES, LeetCode, etc."
+                        class="p-6 md:p-8"
+                />
             </div>
         </div>
     </div>
