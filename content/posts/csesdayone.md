@@ -32,6 +32,8 @@ The first approach uses the formula for the sum of the first `n` natural numbers
 
 By calculating this expected sum and subtracting the sum of the given numbers, we can find the missing number in constant time.
 
+Here, "Constant time" means the time it takes to solve a problem does not increase as the input size grows. In this case, finding the missing number takes the same amount of time, no matter how large `n` is, because it uses a fixed formula without loops or extensive calculations.
+
 ```python
 n = int(input(""))
 l = list(map(int, input("").split()))
