@@ -48,7 +48,7 @@
 			</div>
 		{/if}
 
-		<footer class="pt-4 xl:pt-8">
+		<footer class="pt-4 xl:pt-8 mb-8"> <!-- Added mb-8 for margin-bottom -->
 			<a
 					href="/blog"
 					class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
