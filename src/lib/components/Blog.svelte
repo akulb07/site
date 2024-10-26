@@ -1,6 +1,14 @@
 <script>
+	import { onMount } from 'svelte'; // Import onMount to delay rendering
 	import { config } from '$lib/config';
 	export let post;
+
+	let showContent = false; // Control when the content is rendered
+
+	// Wait until the component is mounted to avoid hydration issues
+	onMount(() => {
+		showContent = true;
+	});
 </script>
 
 <div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
@@ -9,7 +17,7 @@
 			<div class="space-y-1 text-center">
 				<div>
 					<h1
-						class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
+							class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
 					>
 						{post.title}
 					</h1>
@@ -31,13 +39,18 @@
 				</dl>
 			</div>
 		</header>
-		<div class="prose max-w-none pt-10 pb-8 dark:prose-dark">
-			{@html post.content}
-		</div>
+
+		<!-- Only render content after onMount to avoid hydration mismatch -->
+		{#if showContent}
+			<div class="prose max-w-none pt-10 pb-8 dark:prose-dark">
+				{@html post.content}
+			</div>
+		{/if}
+
 		<footer class="pt-4 xl:pt-8">
 			<a
-				href="/blog"
-				class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+					href="/blog"
+					class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
 			>
 				&larr; Back to the blog
 			</a>
