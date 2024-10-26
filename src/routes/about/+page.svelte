@@ -1,6 +1,14 @@
 <script>
+    import { onMount } from 'svelte';
     import Title from '$lib/components/Title.svelte';
-    let title = "About me";
+
+    // Set the title for the page
+    let title = "About";
+
+    // Set the document title when the component mounts
+    onMount(() => {
+        document.title = title; // Set the webpage title to "About"
+    });
 </script>
 
 <div class="flex justify-center items-center">

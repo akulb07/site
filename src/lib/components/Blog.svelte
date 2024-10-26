@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte'; // Import onMount to delay rendering
+	import { onMount } from 'svelte';
 	import { config } from '$lib/config';
 	export let post;
 
@@ -7,7 +7,8 @@
 
 	// Wait until the component is mounted to avoid hydration issues
 	onMount(() => {
-		showContent = true;
+		showContent = true; // Show content after mount
+		document.title = post.title; // Set the page title to the post title
 	});
 </script>
 
