@@ -1,3 +1,3 @@
 # Site
 
-https://akulbatra.vercel.app/
+https://batraakul.vercel.app/
